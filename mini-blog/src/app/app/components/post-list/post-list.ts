@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-post-list',
-  imports: [],
+  standalone: false,
   templateUrl: './post-list.html',
   styleUrl: './post-list.css'
 })

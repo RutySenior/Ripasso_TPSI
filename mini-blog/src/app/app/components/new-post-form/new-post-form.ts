@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-new-post-form',
-  imports: [],
+  standalone: false,
   templateUrl: './new-post-form.html',
   styleUrl: './new-post-form.css'
 })
